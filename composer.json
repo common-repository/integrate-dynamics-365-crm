@@ -1,0 +1,26 @@
+{
+  "name": "miniorange/integrate-dynamics-365-crm",
+  "description": "This plugin will allow you to sync CRM Objects like contacts, accounts, leads, etc. from Dynamics 365 Sales to wordpress.",
+  "type": "plugin",
+  "keywords": ["crm", "dynamics 365", "dynamics crm", "Forms", "Microsoft","Azure AD","WordPress"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "miniOrange",
+      "email": "samlsupport@xecurify.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MoDynamics365ObjectSync\\": "",
+      "MoDynamics365ObjectSync\\View\\": "View",
+      "MoDynamics365ObjectSync\\Wrappers\\": "Wrappers",
+      "MoDynamics365ObjectSync\\API\\": "API",
+      "MoDynamics365ObjectSync\\Controller\\": "Controller",
+      "MoDynamics365ObjectSync\\Observer\\": "Observer"
+    }
+  }
+}
